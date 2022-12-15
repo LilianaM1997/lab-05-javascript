@@ -2,23 +2,21 @@
 <html>
 <body>
 <script>
-const noun = "pizza";
-const adjective = "ridiculous";
-const adverbs = "blindly";
-const verb = "drive";
+var noun = prompt("fill in a noun");
+var adjective = prompt("fill in a adjective");
+var adverbs = prompt("fill in a adverb");
+var verb = prompt("fill in a verb");
 
-function wordBlanks(noun, adjective, adverb, verb) {
 
-var result = "";
 
-result += "On a tropical " + noun + ",";
-result += " Underneath a " + adjective + " moon.";
-result += " Hangin' with the " + adverbs + " dancers";
-result += " Askin' questions cause' they got all the " + verb;
+var sentence = "On a tropical " + noun + ',';
+sentence += " Underneath a " + adjective + " moon.";
+sentence += " Hangin' with the " + adverbs + " dancers";
+sentence += " Askin' questions cause' they got all the " + verb;
 
-return result;
-}
-console.log(wordBlanks("pizza", "ridiculous", "blindly", "drive"));
+console.log(sentence)
+
+
 
 </script>
 </body>
